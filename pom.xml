@@ -17,6 +17,12 @@
 		    <artifactId>poi</artifactId>
 		    <version>3.7</version>
 		</dependency>
+		
+		<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.2</version>
+</plugin>
 
 		<dependency>
 			<groupId>javax.servlet</groupId>
